@@ -12,6 +12,7 @@ header{
     width:100%;
     background-color:black;
     transition:.5s;
+    z-index:25;
 }
 
 .navbar h1{

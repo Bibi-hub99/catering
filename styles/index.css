@@ -77,9 +77,7 @@
 }
 
 @media screen and (min-width:1100px){
-    body{
-        background-color:red;
-    }
+    
     .home-hero-sec-flex{
         flex-direction:row;
         align-items:flex-start;
