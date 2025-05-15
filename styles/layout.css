@@ -47,9 +47,10 @@ header{
     padding:.7rem 1rem;
     border:1px solid white;
     border-radius:.8rem;
+    transition:.5s;
 }
 .navlinks a:hover:not(.active-navLink){
-    background-color:orangered;
+    color:orangered;
     border-color:orangered;
 }
 
@@ -252,6 +253,7 @@ footer a:hover{
 
 .active-navLink{
     background-color:orangered;
+    border:none !important;
 }
 
 @media screen and (min-width:750px){

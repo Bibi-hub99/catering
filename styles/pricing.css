@@ -1,0 +1,26 @@
+.main-section-cont{
+    padding-left:3.1rem;
+    box-sizing:border-box;
+}
+
+.main-section-cont h2{
+    text-decoration:2px underline solid black;
+}
+
+table{
+    width:100%;
+    font-weight:bolder;
+}
+
+table,th,td{
+  border:1px solid black;
+  border-collapse:collapse;
+}
+
+th{
+   padding:1rem 0; 
+}
+
+.dropdown-button{
+    background-color:orangered !important;
+}
