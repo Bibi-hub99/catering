@@ -1,0 +1,65 @@
+
+.main-section-cont{
+    padding-left:3.1rem;
+    box-sizing:border-box;
+}
+
+form{
+    border:1px solid black;
+    border-radius:.5rem;
+    padding:.5rem;
+    box-sizing:border-box;
+    width:100%;
+}
+
+form h4{
+    margin-top:0;
+    margin-bottom:1rem;
+}
+
+
+.booking-form .common_input{
+    width:100%;
+    box-sizing:border-box;
+    padding:.6rem .2rem;
+    border-radius:.5rem;
+    outline:none;
+}
+
+
+input[type='reset'],input[type='submit']{
+    padding:.7rem 1rem;
+    border:none;
+    border-radius:.3rem;
+    color:white;
+    cursor:pointer;
+    font-weight:bolder;
+}
+
+input[type="reset"]{
+    background-color:rgb(236, 34, 34);
+}
+
+input[type="submit"]{
+    background-color:black;
+}
+
+.dropdown-button{
+    background-color:orangered !important;
+}
+
+@media screen and (min-width:900px){
+
+    form{
+        width:80%;
+        margin:0 auto;
+    }
+}
+
+
+@media screen and (min-width:1100px){
+
+    form{
+        width:50%
+    }
+}
