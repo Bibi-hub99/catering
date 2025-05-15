@@ -105,6 +105,7 @@
 
 .client-des{
     text-align:center;
+    text-transform:capitalize;
 }
 
 .client-img-cont:hover .client-message{
