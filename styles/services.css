@@ -1,0 +1,100 @@
+.gallery-container{
+    position:relative;
+}
+
+.gallery-content{
+    width:100%;
+    height:400px;
+    position:relative;
+    display:none;
+    animation-name:flashbang;
+    animation-duration:2s;
+    animation-timing-function:ease-in-out;
+}
+
+.gallery-content img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:.5rem;
+}
+
+.gallery-des{
+    position:absolute;
+    inset:0;
+    font-size:3rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:orangered;
+    font-weight:bolder;
+}
+
+.dots-cont{
+    font-weight:bolder;
+    font-size:1.5rem;
+    margin-top:2rem;
+    text-align:center;
+}
+
+.dots{
+    display:inline-block;
+    padding:.5rem 1rem;
+    border:1px solid black;
+    margin:0 .2rem;
+    border-radius:.5rem;
+    cursor:pointer;
+}
+
+.active-slide{
+    background-color:black;
+    color:white;
+}
+
+.collapsible{
+    width:100%;
+    padding:.5rem 0;
+    background-color:black;
+    color:white;
+    border:none;
+    margin-top:2rem;
+    cursor:pointer;
+}
+
+.collapse-des{
+    padding:.2rem .5rem;
+    box-sizing:border-box;
+    background-color:lightgray;
+    display:none;
+}
+
+.active-collapse{
+    background-color:rgb(44, 44, 44);
+}
+
+@media screen and (min-width:800px){
+
+    .gallery-content{
+        width:80%;
+        margin:0 auto;
+    }
+
+    .collapsible{
+        width:80%;
+        padding:1rem 0;
+    }
+
+    .collapse-des{
+        width:80%;
+    }
+
+    .gallery-container span{
+        color:black;
+    }
+
+}
+
+@keyframes flashbang{
+    from{opacity:.2;}
+    to{opacity:1}
+}

@@ -48,7 +48,7 @@ header{
     border:1px solid white;
     border-radius:.8rem;
 }
-.navlinks a:hover{
+.navlinks a:hover:not(.active-navLink){
     background-color:orangered;
     border-color:orangered;
 }
@@ -137,11 +137,16 @@ header{
     border-radius:.5rem;
 }
 
-.mobile-menu-cont a:hover{
+.mobile-menu-cont a:hover:not(.active-mobiLink){
     background-color:rgb(141, 140, 140);
     color:black;
     width:98%;
     margin:0 auto;
+}
+
+.active-mobiLink{
+    background-color:rgb(141, 140, 140);
+    color:black;
 }
 
 #close-mobileMenu-btn{
@@ -243,6 +248,10 @@ footer a:hover{
 }
 .phone-link{
     background-color:rgb(93, 206, 28);
+}
+
+.active-navLink{
+    background-color:orangered;
 }
 
 @media screen and (min-width:750px){
